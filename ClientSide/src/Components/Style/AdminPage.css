@@ -1,0 +1,110 @@
+#img-container{
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(176, 172, 172);
+    border-radius: 15px  15px 0px  0px;
+}
+#car-container{
+    height:220px ;
+    width: 250px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+hr{
+    margin-top: 5px;
+  
+}
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 100px;
+}
+#car-img{
+    height: 100%;
+}
+#name-container-of-the-file-data{
+    display: flex;
+    justify-content: space-between;
+
+}
+#date-container-of-the-file-data-date{
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+
+}
+#available-date-of-sata-of-the-page{
+    color: rgb(174, 164, 164);
+    font-size: small;
+    /* margin-left: px; */
+}
+#milage-of-my-admin-page-details{
+    color: rgb(77, 219, 77);
+}
+#person-of-admin-page-in-my-page{
+    color: rgb(157, 144, 144);
+    font-weight: 500;
+}
+#btn-add-car{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: green;
+ color: white;
+    border-color:green;
+  
+}
+#welcome-to-admin-page{
+    margin-left: 120px;
+    margin-top: 70px;
+    color: rgb(68, 76, 237);
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+  
+}
+#info{
+    margin-left: 120px;
+
+}
+#add-car{
+    display: flex;
+    
+}
+#btn-add-car-link{
+    margin-left: 70%;   
+}
+#date-avalable-from-till-data-of-the-admin-page{
+    font-size: large;
+    font-weight: bold;
+   
+}
+#main-container-of-the-addmin-page{
+    padding-bottom: 20px;
+}
+#admin-page-main-home{
+    padding-bottom: 400px;
+    
+}
+#display-message-on-the-admin-pag-for-the-err{
+    text-align: center;
+    border: 2px solid red;
+    width: 30%;
+    margin-left: 35%;
+    font-weight: bold;
+    border-radius: 5px;
+    color: red;
+}
+#button-ok-for-th-delee-things{
+    border: 2px solid red;
+    margin-left:20px;
+    background-color: red;
+    padding: 1px;
+    color: aliceblue;
+}

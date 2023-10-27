@@ -1,0 +1,18 @@
+.Logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+.navholder{
+    background-color: blue;
+    color: aliceblue;
+}

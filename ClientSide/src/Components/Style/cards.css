@@ -1,0 +1,113 @@
+
+   #carCard{
+    position: relative;
+       padding-left: 100px;
+       padding-top: 40px;
+       display: flex;
+       width:90%;
+       flex-wrap: wrap;
+       width:100%;
+       gap:50px;
+       background-color:rgba(214, 214, 223, 0.995);
+       padding-bottom: 40px;
+   }
+#card-of-the-order-page-i-make-this{
+height: 250px;
+width: 300px;
+background-color: aliceblue;
+border-radius: 10px;
+box-shadow: 3px 3px 10px black;
+}
+#cardBodys{
+       display: flex;
+       flex-wrap: wrap;
+      height: 100px;
+      width: 15rem;
+     
+   }
+   .card-body{
+   padding-left:1px;
+   }
+   #milage{
+       color: rgb(77, 219, 77);
+       
+   }
+   #person{
+       color: rgb(111, 101, 101);
+       font-weight: 800;
+       margin:0;
+       position: relative;
+       bottom:5px;
+       border: 1px solid rgb(152, 142, 142);
+       width:160px;
+       background-color: rgb(79, 79, 226);
+       color: rgb(229, 235, 241);
+       border-radius: 2px;
+       text-align: center;
+       font-family: sans-serif;
+   }
+   #name-container{
+       
+      display: flex;
+      flex-direction:column;
+      height:max-content;
+      position: relative;
+      bottom: 40px;
+   }
+   #name{
+       color: rgb(111, 105, 105);
+       font-size:larger;
+       font-family: sans-serif;
+       margin-left:0 ;
+       position: relative;
+       top:45px;
+       /* border: 1px solid rgb(185, 178, 178); */
+       border-radius: 5px;
+       width:100px;
+       
+   }
+   #milage{
+       margin-left:210px;
+       width:max-content;
+       border-radius: 5px;
+       margin-top: 10px;
+   }
+   #book-now-of-the-car{
+    color: aliceblue;
+   }
+   
+   #seater{
+       width:15rem;
+       height: 30px;
+   }
+   #booking{
+       width:100%;
+       margin-top: 10px;
+       display: flex;
+       justify-content: space-between;
+       height: 30px;
+       border: 1px solid rgb(178, 172, 172);
+       position: relative;
+       bottom: 42px;
+       background-color: rgb(79, 79, 226);
+       border-radius: 5px;
+       font-size: large;
+       font-weight: bold;
+   }
+   #fare{
+       color: aliceblue;
+       font-size: large;
+   }
+   #book{
+    margin-top: -25px;
+       color: rgb(5, 18, 29);
+   }
+   .img-of-te-car-details-order{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+   }
+   #img-of-the-car-order{
+height: 100%;
+   }
+   

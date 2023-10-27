@@ -1,0 +1,174 @@
+#main-container-of-form{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.data-form-flex{
+    display: flex;
+    gap:50px;
+    width: 100%;
+    
+}
+#left-side-form{
+    width: 40%;
+    margin-left: 8%;
+    border-right: 2px solid gray;
+
+}
+input{
+    height: 30px;
+    width: 90%;
+    margin-top: 10PX;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.date-input,#per-km,.select-things{
+    width: 180px;
+    height: 30px;
+    margin-top: 10PX;
+    font-size: medium;
+    font-weight: bold;
+}
+.input-gap-bottom{
+    margin-bottom: 10px;
+}
+#text-area-description{
+    width: 90%;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 10px ; 
+    font-size: larger;
+    font-weight: bolder;  ;
+}
+#per-km{
+    font-size: larger;
+    font-weight: bolder;
+}
+#name-of-car-detail{
+    margin-left: 12%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+
+}
+#btn-cancle-add-detail{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-color: blue;
+    color: blue;
+}
+#image-add-in-add-user-form{
+  padding-bottom: 20px;
+}
+#right-side-form{
+    width: 40%;
+    padding-left: 40px;
+
+}
+#add-image-in-car-details{
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    border-color: blue;
+    color: blue;
+    background-color: aliceblue;
+}
+#imgs-add-car-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 130px;
+    /* box-shadow: 3px 3px 10px black; */
+}
+.img-sort-box{
+    height: 100px;
+    width: 90px;
+    background-color: rgb(180, 171, 171);
+}
+.car-detail-description{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+#btn-cancle-add-detail-container{
+    display: flex;
+    width: 100%;
+    margin-left: 8%; 
+    justify-content: space-between;
+    margin-right: 8%;
+}
+#btn-Add-add-detail-ans-save{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color:blue;
+    border-color:aliceblue;
+    color:aliceblue;
+    margin-right:20% ;
+   
+}
+#buttons-for-add-cancle{
+    width: 240px;
+}
+#form-add-car-details{
+    margin-left: 60px;
+    width: 90%;
+    box-shadow: 3px 3px 10px rgb(20, 20, 20);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 35px;
+    background-color: rgb(5, 5, 60);
+    background-image: linear-gradient(rgb(17, 17, 18),rgb(58, 58, 146));
+    color: aliceblue;
+    
+}
+.btn-Add-add-detail-ans-save{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color:blue;
+    border-color:aliceblue;
+    color:aliceblue; 
+}
+#delete-btn-for-edit-page{
+    margin-left: 550px;
+    background-color: red;
+}
+.save-btn-details{
+    margin-right: 10%;
+}
+#name-of-car-detail-edit{
+    margin-left: 8%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    
+   
+}
+input:focus, textarea:focus{
+    border-color: blue;
+    box-shadow: 3px 3px 10px blue;
+    outline: rgb(87, 87, 219);
+}
+label{
+    font-size: large;
+    
+}
+textarea{
+    font-size: large;
+    font-weight: bold;
+}
+#preview-img-of-the-file{
+    height: 100%;
+}
+#form-main-container-and-main-block{
+    margin-bottom: 200px;
+}

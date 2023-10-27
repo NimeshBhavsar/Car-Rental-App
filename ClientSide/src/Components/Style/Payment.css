@@ -1,0 +1,192 @@
+.box-of-payment{
+ width: 100%;
+ height: 100vh;
+ padding-top: 30px; 
+ color: black;
+ position: relative;
+ 
+}
+.mai-hoon-map{
+    position: absolute;
+    right: 0px;
+}
+#map-of-the-payment-page-we-change-that-position{
+position: absolute;
+left:700px;
+top:370px;
+z-index: 3;
+}
+
+.contanermaginc-lum{
+ position: absolute;
+ width: 100%;
+ height: 90%;
+ display: flex;
+ justify-content: space-between;
+ color:black;
+ padding: 50px;
+ border-radius: 5px;
+ border-radius: 30px;
+}
+
+.cardetail-app{
+  
+    width: 68%;
+    height: 100%;
+    display: grid;
+   
+    color: rgb(16, 12, 12);
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px black;
+    
+}
+
+.upper{
+   border-bottom: 1px solid;
+   padding: 15px;
+   height: 100%;
+   background-color: rgb(5, 5, 60);
+   background-image: linear-gradient(rgb(11, 11, 13),rgb(58, 58, 146));
+   color:white;
+   border-radius: 30px 30px 0px 0px ;
+   
+}
+
+.comp{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.image-of-car-in-rental-payment{
+  height: 150px;
+  margin-top: -50px;
+}
+
+.img{
+ height: 100%;
+}
+
+.midddle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid;
+    padding: 15px;
+    color: black;
+    height: 100%;
+    background-color: rgb(58, 58, 146);
+    
+    
+   color:white;
+}
+
+.image-of-hte-map{
+    width: 17vw;
+    height: 15vh;
+}
+
+.map-of-doom{
+    width: 17vw;
+    height: 15vh;
+}
+
+.lower{
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(58, 58, 146);
+    background-color: rgb(5, 5, 60);
+    background-image: linear-gradient(rgb(58, 58, 146),rgb(17, 17, 18));
+   border-radius: 0px 0px 30px 30px ;
+   color:white;
+}
+
+.boomking-cont-dgg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.cancel-button-of-page{
+ margin-top: 30px;
+    
+}
+
+.cncl-brfd{
+    width: 10vw;
+    height: 5vh;
+    
+}
+
+.payment{
+    border: 1px solid;
+    width: 30%;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 40px;
+    color: black;
+    border-radius: 30px;
+    background-color: rgb(5, 5, 60);
+    background-image: linear-gradient(rgb(17, 17, 18),rgb(58, 58, 146));
+    color:white;
+    box-shadow: 3px 3px 10px black;
+}
+
+.order-details{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    height: 50%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    padding-top: 30px;
+}
+
+.parameter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.data-gogog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.paylower{
+    padding-top: 40px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.payment-button{
+    width: 24vw;
+    background-color: rgb(65, 217, 65);
+    font-size: large;
+    font-weight: bold;
+    color: rgb(227, 233, 239);
+}
+.name-of-the-page-payment-of-the-car{
+    font-size:20px;
+    font-weight: bold;
+}
+.ans-of-the-file-payment-in-data-of-file{
+    font-size: large;
+    font-weight: bold;
+}
+.ans-of-the-file-payment-in-data-of-file-total{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(145, 231, 145);
+}
+.cncl-brfd{
+    background-color: red;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    height: 40px;
+}

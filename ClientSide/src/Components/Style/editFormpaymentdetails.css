@@ -1,0 +1,121 @@
+#Edit-form-payment-details{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  
+}
+.edit-form-payment-details{
+    width: 40%;
+    margin-left: 40px;
+  
+}
+label,input,span{
+        margin-bottom: 10px;
+}
+
+#form-leftside-edit-part-in-payment{
+    margin-top: 70px;
+    width: 50%;
+    box-shadow: 3px 3px 10px black;
+    padding: 60px;
+    margin-left: 8%;
+
+}
+#form-rightside-edit-part-in-payment{
+    margin-top: 70px;
+    width: 40%;
+    box-shadow: 3px 3px 10px black;
+    padding: 60px;
+    margin-right: 0%;
+}
+#input-type-checkboc-payment-detais{
+    height: 15px;
+    position: absolute;
+    left: -30px;
+   top: 10px;
+}
+#djknfkjnfkjwrnrfkw{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.name-of-the-span-css-for-payment-details{
+    margin-left: 50%;
+}
+#input-type-checkboc-payment-detais{
+    width: 15px;
+}
+.name-of-the-span-css-for-payment-details-total{
+    color: rgb(26, 218, 26);
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 50%;
+}
+.name-of-the-span-css-for-payment-details-total-subtotal{
+    font-size: larger;
+    font-weight: bolder;
+}
+#btn-proceed-payment-details{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: green;
+}
+#btn-cancle-payment-details{
+    font-size: larger;
+    font-weight: bolder;
+}
+#btn-cancle-payment-details{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    background-color:red;
+}
+#name-edit-details-payment-edit{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#edit-payment-details-block{
+    position: relative;
+}
+#image-edit-payment-details-in-data{
+    height: 120px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+#for-maip-i-created-container{
+    position: relative;
+}
+.image-of-hte-map-of-the-edit-page{
+    position: absolute;
+    width: 200px;
+    top: 12px;
+    right: 0;
+}
+#origin-of-the-edit-page{
+    margin-left: 75px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+}
+#name-of-the-car-edit-payment{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+#type-of-the-car-in-payment{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 32px;
+}

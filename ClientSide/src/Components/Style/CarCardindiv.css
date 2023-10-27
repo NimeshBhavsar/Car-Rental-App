@@ -1,0 +1,36 @@
+/* #milage{
+    color: rgb(77, 219, 77);
+    
+}
+#person{
+    color: rgb(157, 144, 144);
+    font-weight: 500;
+    margin-left:0;
+}
+#name-container{
+    
+   display: flex;
+   flex-direction: column;
+   height:max-content;
+}
+#name{
+    
+}
+#seater{
+    width:15rem;
+    height: 30px;
+}
+#booking{
+    width:15rem;
+    height: 30px;
+    border: 1px solid rgb(149, 145, 145);
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(168, 168, 222);
+    color: aliceblue;
+    border-radius: 5px;
+} */
+
+*{
+    color: white;
+}
