@@ -11,8 +11,8 @@ import EditCarDetails from './Components/AdminpageAllDetail/EditCarDetails'
 import ExistBookings from "./Booking/ExistBookings"
 import OrderPage from "./Booking/OrderPage"
 import Page3 from './Booking/Page3'
-import Payment from './Components/Payent/Payment';
-import EditPaymentDetails from './Components/Payent/EditPaymentDetails';
+import Payment from './Components/Payment/Payment';
+import EditPaymentDetails from './Components/Payment/EditPaymentDetails';
 import PageNotFound from './Components/PageNotFound';
 
 function AppRouter() {
