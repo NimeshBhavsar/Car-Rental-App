@@ -23,12 +23,13 @@ function OrderPage(){
         "authorization":JSON.parse(localStorage.getItem("token-user "))
     }
     }).then(res => res.json())
-      .then(res => setdata(res));
+      .then(res => setdata(res.reverse(). slice(0, 10)));
+      
   }, [])
   const [selectBtn , setSelectBtn] = useState(false);
   const [selectSeating , setSelectSeating] = useState(false)
   const [milageSelect , setMilageSelect] = useState(false);
-  const [filterData , setFilterData] = useState([]);
+  var [filterData , setFilterData] = useState([]);
   
   
 
@@ -54,7 +55,7 @@ if(e.target.id==="All"){
        <Header/>
       
 
-<div id="select-butn-fileter-container-indiv">
+{/* <div id="select-butn-fileter-container-indiv">
   <div>
          <button onClick={()=>setSelectBtn(false)} onDoubleClick={()=>setSelectBtn(true)} id="button-of-the-filete-the-data-in-bookin-page">CarType</button>
          {selectBtn?<div id="car-type-filter-in-booking-page">
@@ -81,12 +82,12 @@ if(e.target.id==="All"){
          <input type="checkbox" className='checkbox-in-filter-in-cartype' onClick={filterFunc} id="10Km/L"/><label>10Km/L</label><br/>
          </div>:null}
          </div>     
-      </div>
+      </div> */}
 
 
 
  {filterData.length>0?<div id="carCard">{
-        filterData.map((d, i) => {
+        filterData.reverse().map((d, i) => {
           return <div key={i} id="card-of-the-order-page-i-make-this">
 
               <div className="img-of-te-car-details-order">
@@ -109,7 +110,8 @@ if(e.target.id==="All"){
         })
       }
     </div>:<div id="carCard">{
-        data.map((d, i) => {
+        
+        data.reverse().map((d, i) => {
           return <div key={i} id="card-of-the-order-page-i-make-this">
 
               <div className="img-of-te-car-details-order">

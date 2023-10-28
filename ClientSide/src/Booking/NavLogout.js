@@ -15,7 +15,7 @@ const navigate = useNavigate();
     <span id="name-of-the-app-rental-car-app">Car Rental App</span>
 </div>
 <div>
-<Link to="/Existbookings" ><button id="logout-admin-page-butn-admin"  >Mybooking</button></Link>
+<Link to="/Existbookings" ><button id="logout-admin-page-butn-admin"  >My Bookings</button></Link>
 <Link to = "/"><button id="logout-admin-page-butn-admin" onClick={()=>localStorage.clear()} >Logout</button></Link>
 </div>
 </nav>

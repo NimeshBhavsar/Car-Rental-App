@@ -68,7 +68,7 @@ return<>
 <label >Booking Time</label>
 <span className="name-of-the-span-css-for-payment-details">{time}</span><br></br>
 <hr></hr>
-<button id="btn-cancle-payment-details" onClick={()=>Navigate("/Existbookings")}>Cancle</button>
+<button id="btn-cancle-payment-details" onClick={()=>Navigate("/Existbookings")}>Cancel</button>
 </div>
 <div id="form-rightside-edit-part-in-payment">
     <label>pricekm</label>
@@ -83,7 +83,7 @@ return<>
     <span className="name-of-the-span-css-for-payment-details-total">3388</span><br></br>
 <div id="djknfkjnfkjwrnrfkw">
     <input type="checkbox" id="input-type-checkboc-payment-detais"/>
-    <label>it is the long istablished fact that a render will be destracted by the readable content</label>
+    <label>I agree to all *T&C</label>
     </div>
     <br/>
      <button type="submit" id="btn-proceed-payment-details">Proceed</button>

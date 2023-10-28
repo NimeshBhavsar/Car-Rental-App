@@ -12,18 +12,18 @@ function Header() {
         <form id="form" action="">
 
           <li className='Origin' 
-             >Origin :{headerData.origin}</li>
+             >Origin : {headerData.origin}</li>
 
           <i className="fa-solid fa-arrow-right  arrow" style={{ color: "#4279cd" }}></i>
 
           <li  className="Origin"
-            >Destination :{headerData.destination}</li>
+            >Destination : {headerData.destination}</li>
 
           <li type="date"  className="Origin" 
-             >Starting from :{headerData.startDate}</li>
+             >Starting from : {headerData.startDate}</li>
 
           <li type="date"  className="Origin"
-            >Ending :{headerData.endDate}</li>
+            >Ending : {headerData.endDate}</li>
 
           
           <Link to="./Page3" id="modify" onClick={()=>setheaderData(headerData)}>Modify</Link>

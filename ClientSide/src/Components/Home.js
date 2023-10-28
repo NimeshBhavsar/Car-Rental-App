@@ -27,8 +27,8 @@ function Home() {
     <>
     <Navigation/>
       <div className='Home-page'>  
-        <div className='Register'>
-        <p className='slogan-of-the-home-page'>All you needed was a wheel in Your hand and four on the road.</p> 
+        <div className='Register' >
+        <p className='slogan-of-the-home-page'>All we need is a wheel in our hand and four on the road</p> 
           <div className='user'>
             <p>User</p>
             <div className="button-user-admin-login-containecr">

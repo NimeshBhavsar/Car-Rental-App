@@ -22,7 +22,7 @@ export default function AdminPage() {
            return Navigater("/")
         }
         GetCars()
-            .then(data=>setCar(data.reverse()))  
+            .then(data=>setCar(data.reverse().slice(0, 10)))  
         },[]
     ); 
    

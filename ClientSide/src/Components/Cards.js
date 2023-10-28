@@ -38,7 +38,7 @@ export default function Cards() {
                     </div>
 
                     <div id="name-container">
-                      <Card.Text id="name" >6 persons</Card.Text>
+                     
                       <Card.Text id="milage" >{d.milage}</Card.Text>
                     </div>
                   </Card.Body>

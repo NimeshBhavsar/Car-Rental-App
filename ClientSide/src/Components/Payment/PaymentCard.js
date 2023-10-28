@@ -92,7 +92,7 @@ navigate("/ExistBookings")
           <div className="midddle">
           <div className="data">
                    <li className='name-of-the-page-payment-of-the-car'>Origin : </li>
-                   <li className='name-of-the-page-payment-of-the-car'> Deatination : </li>
+                   <li className='name-of-the-page-payment-of-the-car'> Destination : </li>
                    <li className='name-of-the-page-payment-of-the-car'>Start-Dtate : </li>
                    <li className='name-of-the-page-payment-of-the-car'>End-Date : </li>
                </div>
@@ -130,7 +130,7 @@ navigate("/ExistBookings")
            <h3>Payment Details</h3>
            <div className='order-details'>
            <div className="parameter">
-               <li className='name-of-the-page-payment-of-the-car'>price/Km</li>
+               <li className='name-of-the-page-payment-of-the-car'>Price/Km</li>
                <li className='name-of-the-page-payment-of-the-car'>Distance</li>
                <li className='name-of-the-page-payment-of-the-car'>SubTotal</li>
                <li className='name-of-the-page-payment-of-the-car'>Tax(gst)</li>
@@ -148,7 +148,7 @@ navigate("/ExistBookings")
          <li  className='ans-of-the-file-payment-in-data-of-file-total'>{total} RS</li>
          </div>
          
-         <button className='payment-button' onClick={Proceed}>proceed</button>
+         <button className='payment-button' onClick={Proceed}>Proceed</button>
 
        </div>
     </div>
