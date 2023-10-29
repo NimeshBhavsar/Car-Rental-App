@@ -35,10 +35,10 @@ export default function AdminPage() {
     <AdminpageNav/>
     <div id="admin-page-main-home">
            
-        <h1 id="welcome-to-admin-page">Hello {adminName}</h1>
+        <h1 id="welcome-to-admin-page">Welcome {adminName}</h1>
         <div id="main-container-of-the-addmin-page">
         <div id="add-car">
-            <h3 id="info">Cars</h3>
+            {/* <h3 id="info">Cars</h3> */}
           <Link to="/add-car-details" id="btn-add-car-link"><button id="btn-add-car">Add Car</button></Link> 
         </div>
       { car.length===0? <Backdrop
@@ -70,10 +70,10 @@ export default function AdminPage() {
                                 
                                 }}  />
                         </div>
-                        <div id="person-of-admin-page-in-my-page">6 person</div>
+                        <div id="person-of-admin-page-in-my-page"> <br></br></div>
                         <div id="name-container-of-the-file-data">
                             <h5>{d.name}</h5>
-                            <h5 id="milage-of-my-admin-page-details">{d.perKm}KM/RS</h5>
+                            <h5 id="milage-of-my-admin-page-details">{d.perKm}Rs/Km</h5>
                         </div>
                         <hr />
                         <div id="date-container-of-the-file-data-date">

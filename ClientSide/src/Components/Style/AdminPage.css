@@ -1,5 +1,6 @@
 #img-container{
     height: 120px;
+    /* height: 100%; */
     width: 100%;
     text-align: center;
     background-color: rgb(176, 172, 172);
@@ -25,6 +26,7 @@ hr{
 }
 #car-img{
     height: 100%;
+    width: 100%;
 }
 #name-container-of-the-file-data{
     display: flex;
@@ -64,7 +66,7 @@ hr{
 #welcome-to-admin-page{
     margin-left: 120px;
     margin-top: 70px;
-    color: rgb(68, 76, 237);
+    color: rgb(255, 162, 0);
     font-weight: bolder;
     text-shadow: 1px 1px 2px black;
   
@@ -78,7 +80,7 @@ hr{
     
 }
 #btn-add-car-link{
-    margin-left: 70%;   
+    margin-left: 88%;   
 }
 #date-avalable-from-till-data-of-the-admin-page{
     font-size: large;
